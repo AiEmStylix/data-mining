@@ -18,6 +18,7 @@ Dự án sử dụng [uv](https://github.com/astral-sh/uv) và `pyproject.toml` 
 **2. Đồng bộ và cài đặt môi trường:**
 Mở terminal tại thư mục gốc của dự án (nơi chứa file `pyproject.toml`) và chạy lệnh sau:
 
+
 ```bash
 uv sync
 ```
