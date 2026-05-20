@@ -20,7 +20,7 @@ Mở terminal tại thư mục gốc của dự án (nơi chứa file `pyproject
 
 ```bash
 uv sync
-
+```
 
 ## 📈 Chạy Mã Nguồn
 
