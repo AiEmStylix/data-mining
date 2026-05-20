@@ -8,7 +8,6 @@ from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.callbacks import Callback
-from IPython.display import clear_output  # Giúp xóa biểu đồ cũ để vẽ cái mới trên Notebook
 # PREPROCESSING
 print("Đang tải và xử lý dữ liệu PJM East...")
 
