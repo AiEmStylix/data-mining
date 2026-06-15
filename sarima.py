@@ -22,7 +22,7 @@ df = df[~df.index.duplicated(keep='first')]
 df = df.asfreq('h')
 df = df.interpolate(method='linear')
 
-# GIỚI HẠN DỮ LIỆU XUỐNG CÒN 1 THÁNG (30 ngày) ĐỂ AUTO ARIMA CHẠY NHANH
+# GIỚI HẠN DỮ LIỆU XUỐNG CÒN 1 TÁNG (30 ngàHy) ĐỂ AUTO ARIMA CHẠY NHANH
 subset_hours = 24 * 30 
 df_subset = df.tail(subset_hours)
 data = df_subset['PJME_MW']
